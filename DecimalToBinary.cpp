@@ -57,11 +57,12 @@ void Stack::displayStack() const {
     current = top;
     
     while (current != nullptr) {
-        cout << current->value << endl;;
+        cout << current->value << " ";;
         current = current->next;
     }
     cout << endl;
 }
+
 
 
 
